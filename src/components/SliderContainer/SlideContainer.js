@@ -1,18 +1,19 @@
 
 import "./styles.css"
+import {ServersList} from "../../pages/Servers/ServersList";
 
-const SliderContainer = (props) => (
+const SlideContainer = (props) => (
 
     <div className="SlideContainer">
 
         <div className="SlideInfoContainer">
 
             <div className="SlideInfoTitle">
-                {props.title}
+                {ServersList[props.index].title}
             </div>
 
             <div className="SlideDescription">
-                <p>{props.description}</p>
+                <p>{ServersList[props.index].description}</p>
             </div>
 
             <div className="SlideButtons">
@@ -21,10 +22,10 @@ const SliderContainer = (props) => (
             </div>
 
         </div>
-        <img className="SlideImage" src={props.img} alt=""/>
+        <img className="SlideImage" src={ServersList[props.index].img} alt=""/>
 
     </div>
 
 )
 
-export default SliderContainer
+export default SlideContainer

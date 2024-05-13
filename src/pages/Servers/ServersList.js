@@ -1,7 +1,7 @@
 
-import HiTechPreview from "./img/HitechPreview.jpg"
-import TechnoMagicPreview from "./img/TechnoMagicPreview.jpg"
-import  GregTechPreview from "./img/GregTechPreview.jpg"
+import HiTechPreview from "../../components/SliderContainer/img/HitechPreview.jpg"
+import TechnoMagicPreview from "../../components/SliderContainer/img/TechnoMagicPreview.jpg"
+import  GregTechPreview from "../../components/SliderContainer/img/GregTechPreview.jpg"
 
 
 const ServersList = [
